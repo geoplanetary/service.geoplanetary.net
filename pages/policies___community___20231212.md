@@ -1,7 +1,7 @@
-- [コミュニティポリシー](policies/community) / [過去の版](policies/community/versions) / 2023-12-12
+- [コミュニティポリシー](policies/community) / [過去の版](policies/community/revisions) / 2023-12-12
 # コミュニティポリシー
 	- 発効日: 2023-12-12 00:00 +09:00 (JST)
-	- [過去の版](policies/community/versions)
+	- [過去の版](policies/community/revisions)
 - ***
 - ## はじめに
 - ### この文書について

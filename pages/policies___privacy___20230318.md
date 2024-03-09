@@ -1,4 +1,4 @@
-- [プライバシーポリシー](policies/privacy) / [過去の版](policies/privacy/versions) / 2023-03-18
+- [プライバシーポリシー](policies/privacy) / [過去の版](policies/privacy/revisions) / 2023-03-18
 - [:div {:style "padding:6px;border:1px solid hsl(0deg,100%,70%);border-radius:12px;background-color:hsl(0deg 100% 70% / 20%);"} [:div [:b "現在、過去の版を表示しています。"]] [:div "このページは、2023-03-18に発効された過去の版です。現在適用されているプライバシーポリシーとの比較のために残されており、ここに表示されている文書が契約として効力を発することはありません。"]]
 # プライバシーポリシー
 	- 発効日: 2023-03-18 00:00 +09:00 (JST)

@@ -1,8 +1,8 @@
-- [コミュニティポリシー](policies/community) / [過去の版](policies/community/versions) / 2023-04-13
+- [コミュニティポリシー](policies/community) / [過去の版](policies/community/revisions) / 2023-04-13
 - [:div {:style "padding:6px;border:1px solid hsl(0deg,100%,70%);border-radius:12px;background-color:hsl(0deg 100% 70% / 20%);"} [:div [:b "現在、過去の版を表示しています。"]] [:div "このページは、2023-04-13に発効された過去の版です。現在適用されているコミュニティポリシーとの比較のために残されており、ここに表示されている文書が契約として効力を発することはありません。"]]
 # コミュニティポリシー
 	- 発効日: 2023-04-13 00:00 +09:00 (JST)
-	- [過去の版](policies/community/versions)
+	- [過去の版](policies/community/revisions)
 - ***
 - ## はじめに
 - ### この文書について

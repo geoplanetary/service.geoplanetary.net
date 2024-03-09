@@ -1,6 +1,6 @@
 # プライバシーポリシー
 	- 発効日: 2023-09-06 00:00 +09:00 (JST)
-	- [過去の版](policies/privacy/versions)
+	- [過去の版](policies/privacy/revisions)
 - ***
 - ## はじめに
 - ### この文書について
