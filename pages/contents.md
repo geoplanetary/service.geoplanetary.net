@@ -1,0 +1,9 @@
+- [[index]]
+  id:: 65ec6c86-22f3-49c0-bb4d-8204dadffb96
+	- [利用規約](terms)
+	- [ポリシー](policies)
+		- [プライバシーポリシー](policies/privacy)
+		- [コミュニティポリシー](policies/community)
+		- [メディアポリシー](policies/media)
+	- [制限済みサーバー](restricted-servers)
+	- [カスタム絵文字](emojis)
