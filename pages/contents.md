@@ -7,3 +7,4 @@
 		- [メディアポリシー](policies/media)
 	- [制限済みサーバー](restricted-servers)
 	- [カスタム絵文字](emojis)
+	- [ソフトウェア情報](software)
