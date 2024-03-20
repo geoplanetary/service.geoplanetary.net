@@ -1,4 +1,4 @@
-# じおぷらねたりー
+- [:h1 [:img {:src "https://github.com/zawa-ch/service.geoplanetary.net/raw/main/icons/webp/icon.256.webp" height "48" width "48"}] "じおぷらねたりー"]
 - zawa-ch.によって運営されるMisskeyサーバー
 - ***
 - 管理者: [zawa-ch.](https://geoplanetary.net/@stellar_ch)
