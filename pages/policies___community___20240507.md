@@ -1,3 +1,4 @@
+- [コミュニティポリシー](policies/community) / [過去の版](policies/community/revisions) / 2024-05-07
 # コミュニティポリシー
 	- 発効日: 2024-05-07 06:00 +09:00 (JST)
 	- [過去の版](policies/community/revisions)
