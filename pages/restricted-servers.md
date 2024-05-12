@@ -19,6 +19,7 @@
 	  解除予定: 2024-08-30
 	- 9ineverse(`9ineverse.com`)
 	  [参考](https://9ineverse.com/notes/9pt9tov37f)
+	  解除予定: 2024-08-29
 - ### スパム対策のための制限
   以下のサーバーにおいて、スパム行為を行うユーザーが多数観測されています。当該サーバー管理者による対応が完了するまで、一部のアクティビティを制限します。
 	- [:small "現在、リストは空です"]
@@ -34,9 +35,11 @@
 	  [参考](https://misskey.design/notes/9prwvf7u6d)
 	  解除予定: 2024-08-30
 	- 9ineverse(`9ineverse.com`)
-	  [参考](https://9ineverse.com/notes/9pt9tov37f)
+	  [参考](https://9ineverse.com/notes/9qcf3o51m1)
 - ### 応答なし
   以下のサーバーは、長期間にわたってサーバーの動作が確認できないことから、アクティビティの配送を停止しています。
+	- Mastodon | Dev-Wiki Social(`social.dev-wiki.de`)
+	  閉鎖済み
 	- Mastodon Indonesia(`mstdn.id`)
 	- `relay.04.si`
 	- ちこもえ(`chico.moe`)
