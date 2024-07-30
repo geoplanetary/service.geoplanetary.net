@@ -12,7 +12,7 @@
 	  理由: Forkbomb, [参考](https://misskey.io/notes/98bjfxxwv1)
 - ## サイレンスしているサーバー
   このサービスは、以下のサーバーからのリクエストの受信を制限しています。
-- ### 差別的な連合
+- ### 差別的なモデレーション
   以下のサーバーは不当な選定基準によるホワイトリスト連合を行っているため、サイレンス処理を行っています。
 	- Misskey.design(`misskey.design`)
 	  [参考](https://misskey.design/notes/9prwvf7u6d)
@@ -29,7 +29,7 @@
   以下のサーバーは、そのサーバーの管理者によって配送を停止するよう要請されているため、アクティビティの配送を停止しています。
 	- Misskey.cf(`misskey.cf`)
 	  [参考](https://misskey.io/notes/9gcdr0blkh)
-- ### 差別的な連合
+- ### 差別的なモデレーション
   以下のサーバーは不当な選定基準によるホワイトリスト連合を行っているため、アクティビティの配送を停止しています。
 	- Misskey.design(`misskey.design`)
 	  [参考](https://misskey.design/notes/9prwvf7u6d)
