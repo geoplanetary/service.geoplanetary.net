@@ -35,14 +35,15 @@
 	  [参考](https://9ineverse.com/notes/9qcf3o51m1)
 - ### 応答なし
   以下のサーバーは、長期間にわたってサーバーの動作が確認できないことから、アクティビティの配送を停止しています。
-	- Mastodon | Dev-Wiki Social(`social.dev-wiki.de`)
-	  閉鎖済み
-	- Mastodon Indonesia(`mstdn.id`)
-	- `relay.04.si`
 	- ちこもえ(`chico.moe`)
 	- comorichicodon(`mastodon.comorichico.com`)
 	  閉鎖済み, [参考](https://geoplanetary.net/notes/9ho0vj6o72)
 	- `misskey.atelier-kanata.dev`
+	- Mastodon Indonesia(`mstdn.id`)
+	- のと's private room(`social.nohto.net`)
+	- `relay.04.si`
+	- Mastodon | Dev-Wiki Social(`social.dev-wiki.de`)
+	  閉鎖済み
 - ### 連合停止
   以下のサーバーは、Fediverse上での連合を停止しています。連合が再開されるまでアクティビティの配送を停止します。
 	- [:small "現在、リストは空です"]
