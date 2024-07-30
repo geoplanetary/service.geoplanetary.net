@@ -5,6 +5,7 @@
 		- [プライバシーポリシー](policies/privacy)
 		- [コミュニティポリシー](policies/community)
 		- [メディアポリシー](policies/media)
+		- [機械学習ポリシー](policies/machine-learning)
 	- [制限済みサーバー](restricted-servers)
 	- [カスタム絵文字](emojis)
 	- [ソフトウェア情報](software)
