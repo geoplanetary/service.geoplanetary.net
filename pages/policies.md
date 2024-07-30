@@ -5,3 +5,4 @@
 - ## コミュニティの健全な育成のために遵守すべきガイドライン
 	- [コミュニティポリシー](policies/community)
 	- [メディアポリシー](policies/media)
+	- [機械学習ポリシー](policies/machine-learning)
