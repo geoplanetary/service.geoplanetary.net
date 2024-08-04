@@ -10,6 +10,27 @@
 	  理由: Forkbomb, [参考](https://misskey.io/notes/98bjfxxwv1)
 	- `repl.co`
 	  理由: Forkbomb, [参考](https://misskey.io/notes/98bjfxxwv1)
+- ### 規約・ポリシーへの違反
+  規約・ポリシーに違反するモデレーションが確認されているため、以下のサーバーとのやり取りを行うことはできません。
+	- `annihilation.social`
+	- `ap.jadiunr.net`
+	- `bae.st`
+	- `breastmilk.club`
+	- `cdrom.tokyo`
+	- `crucible.world`
+	- `detroitriotcity.com`
+	- `ezdog.org`
+	- `freespeechextremist.com`
+	- `gnusocial.jp`
+	- `mastodon.green`
+	- `minidisc.tokyo`
+	- `mugicha.club`
+	- `nicecrew.digital`
+	- `poa.st`
+	- `poster.place`
+	- `sneed.social`
+	- `shitpost.cloud`
+	- `wolfgirl.bar`
 - ## サイレンスしているサーバー
   このサービスは、以下のサーバーからのリクエストの受信を制限しています。
 - ### 差別的なモデレーション
