@@ -2,6 +2,10 @@
 - じおぷらねたりーでは、Unicode絵文字のほかに追加の絵文字セットを提供しています。
   一部のカスタム絵文字はその作者の著作権によって保護されています。
 - ***
+- ## ShieldsBadges
+	- 作者: [zawa-ch.](https://geoplanetary.net/@stellar_ch)
+	- ホームページ: https://github.com/zawa-ch/mi-shieldbadges
+	- ライセンス: CC0 パブリックドメイン
 - ## Missmoji Library
 	- 作者: [zawa-ch.](https://geoplanetary.net/@stellar_ch)
 	- ホームページ: [https://github.com/zawa-ch/missmoji-library](https://github.com/zawa-ch/missmoji-library)
@@ -19,10 +23,6 @@
 	  [:small (情報が不足しています。情報の提供者を募集します)]
 	- ダウンロードへのリンク: [https://volpeon.ink/projects/emojis/bunhd/](https://volpeon.ink/projects/emojis/bunhd/)
 	- ライセンス: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
-- ## Simple Icons
-	- 作者: Simple Icons コミュニティ
-	- ホームページ: [https://simpleicons.org/](https://simpleicons.org/)
-	- ライセンス: [カスタムライセンス](https://github.com/simple-icons/simple-icons/blob/master/DISCLAIMER.md)
 - ## Cult of the Party Parrot
 	- 作者: [John Hobbs](https://github.com/jmhobbs)
 	- ホームページ: [https://cultofthepartyparrot.com/](https://cultofthepartyparrot.com/)
