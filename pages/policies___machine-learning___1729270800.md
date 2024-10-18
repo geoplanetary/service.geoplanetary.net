@@ -1,5 +1,5 @@
 - [機械学習ポリシー](policies/machine-learning) / [過去の版](policies/machine-learning/revisions) / 2024-10-19
-# 機械学習ポリシー
+- # 機械学習ポリシー
 	- 発効日: 2024-10-19 02:00 +09:00 (JST)
 	- [過去の版](policies/machine-learning/revisions)
 - ***
