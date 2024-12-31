@@ -43,6 +43,8 @@
 - ### 応答なし
 	- `calc.menac.at`
 	- ちこもえ(`chico.moe`)
+	- にる村α(`m.n1l.dev`)
+	  [:small "閉鎖済み"]
 	- comorichicodon(`mastodon.comorichico.com`)
 	  [:small "閉鎖済み, " [:a {:target "_blank" :href "https://geoplanetary.net/notes/9ho0vj6o72"} 参考]]
 	- `misskey.atelier-kanata.dev`
