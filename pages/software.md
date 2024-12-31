@@ -1,5 +1,5 @@
 # ソフトウェア情報
-- ソフトウェア: Misskey 2024.9.0-geoplanetary.7
+- ソフトウェア: Misskey 2024.11.0-geoplanetary.10
   id:: 65f80b44-713e-41db-8ecb-153c5c8486f0
 	- リポジトリ: https://github.com/zawa-ch/geoplanetary
 	- 更新履歴: https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md
@@ -12,6 +12,8 @@
 - [:div {:style "height: 8rem;"}]
 - ## アップストリームとの主な変更点
   (すべての変更はリポジトリの[変更履歴](https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md)をご確認ください)
+	- ユーザーハンドルとメールアドレスに対するモデレーション機能の強化。
+	  [:small "since 2024.10.1-geoplantery.10"]
 	- 投稿禁止ノートパターン機能。
 	  [:small "since 2024.2.0-geoplantery.5"]
 	- 投稿可能なノートの最大文字数は65,536文字(ロールによって制御可能)です。
