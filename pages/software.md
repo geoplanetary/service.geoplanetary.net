@@ -12,6 +12,8 @@
 - [:div {:style "height: 8rem;"}]
 - ## アップストリームとの主な変更点
   (すべての変更はリポジトリの[変更履歴](https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md)をご確認ください)
+	- ユーザーハンドルとメールアドレスに対するモデレーション機能の強化。
+	  [:small "since 2024.10.1-geoplantery.10"]
 	- 投稿禁止ノートパターン機能。
 	  [:small "since 2024.2.0-geoplantery.5"]
 	- 投稿可能なノートの最大文字数は65,536文字(ロールによって制御可能)です。
