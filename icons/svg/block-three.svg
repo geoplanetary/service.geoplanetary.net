@@ -6,8 +6,8 @@
 	height="18"
 	viewBox="0 0 18 18"
 	version="1.1"
-	inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
-sodipodi:docname="block-two.svg"
+	inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+	sodipodi:docname="block-three.svg"
 	xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
 	xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
 	xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ sodipodi:docname="block-two.svg"
 	</sodipodi:namedview>
 	<style>
 		.base {
-			fill: #4acc2a;
+			fill: #cc2a2a;
 			fill-opacity:1;
 			stroke:#ffffff;
 			stroke-width:1;
@@ -56,9 +56,9 @@ sodipodi:docname="block-two.svg"
 			sodipodi:nodetypes="ccccccccc"
 		/>
 		<path
-			d="m 6.5,5.5 h 5 v 3 h -5 v 4 h 5"
+			d="m 6.5,5.5 h 5 v 3 h -4 4 v 4 h -5"
 			class="line"
-			sodipodi:nodetypes="cccccc"
+			sodipodi:nodetypes="ccccccc"
 		/>
-	</g>
+  </g>
 </svg>
