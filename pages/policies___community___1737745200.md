@@ -1,3 +1,4 @@
+- [コミュニティポリシー]([[policies/community]]) / [過去の版]([[policies/community/revisions]]) / 2025-01-25
 # コミュニティポリシー
 	- 発効日: 2025-01-25 04:00 +09:00 (JST)
 	- [過去の版]([[policies/community/revisions]])
