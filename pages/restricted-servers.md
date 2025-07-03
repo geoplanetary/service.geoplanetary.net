@@ -37,9 +37,9 @@
 - ### 管理者による要請
 	- Misskey.cf(`misskey.cf`)
 	  [:small [:a {:target "_blank" :href "https://misskey.io/notes/9gcdr0blkh"} "参考"]]
-- ### 差別的なモデレーション
+- ### 規約・ポリシーに違反したモデレーション
 	- 9ineverse(`9ineverse.com`)
-	  [:small "不当な選定基準によるホワイトリスト連合, " [:a {:target "_blank" :href "https://9ineverse.com/notes/9qcf3o51m1"} "参考"]]
+	  [:small "不当な選定基準によるホワイトリスト連合, " [:a {:target "_blank" :href "https://geoplanetary.net/notes/9qcf3o516e"} "参考"]]
 - ### 応答なし
 	- `calc.menac.at`
 	- ちこもえ(`chico.moe`)
