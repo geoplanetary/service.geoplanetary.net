@@ -1,6 +1,7 @@
 - [:h1 [:img {:src "https://github.com/zawa-ch/service.geoplanetary.net/raw/main/icons/webp/icon.256.webp" height "48" width "48"}] "じおぷらねたりー"]
 - zawa-ch.によって運営されるMisskeyサーバー
 - ***
+- ![Website status](https://img.shields.io/website?url=https%3A%2F%2Fgeoplanetary.net%2F&up_message=online&up_color=%23003e7f&down_message=down&down_color=lightgrey&style=plastic&cacheSeconds=900)
 - 管理者: [zawa-ch.](https://geoplanetary.net/@stellar_ch)
 - 連絡先: [satellite.2e1834097@gmail.com](mailto:satellite.2e1834097@gmail.com)
 - {{embed ((65f80b44-713e-41db-8ecb-153c5c8486f0))}}

@@ -1,5 +1,5 @@
 # ソフトウェア情報
-- ソフトウェア: Misskey 2024.11.0-geoplanetary.10
+- ソフトウェア: Misskey 2025.1.0-geoplanetary.10
   id:: 65f80b44-713e-41db-8ecb-153c5c8486f0
 	- リポジトリ: https://github.com/zawa-ch/geoplanetary
 	- 更新履歴: https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md
