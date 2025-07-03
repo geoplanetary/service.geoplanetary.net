@@ -1,14 +1,12 @@
 # ソフトウェア情報
-- ソフトウェア: Misskey 2025.1.0-geoplanetary.10
+- ソフトウェア: [:img {:alt "Misskey 2025.1.0-geoplanetary.10" :src "https://img.shields.io/badge/Misskey-2025.1.0--geoplanetary.10-A1CA03?logo=misskey"}]
   id:: 65f80b44-713e-41db-8ecb-153c5c8486f0
-	- リポジトリ: https://github.com/zawa-ch/geoplanetary
-	- 更新履歴: https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md
-	- ライセンス: [GNU AGPL-3.0](https://github.com/zawa-ch/geoplanetary/blob/geoplanetary-dev/LICENSE)
+  [:div [:a {:style "margin-right:0.4em" :href "https://github.com/zawa-ch/geoplanetary" :target "_blank"} [:img {:alt "repository" :src "https://img.shields.io/badge/github-zawa--ch%2Fgeoplanetary-white?logo=github&logoColor=fff&labelColor=181717"}]][:a {:style "margin-right:0.4em" :href "https://github.com/zawa-ch/geoplanetary/blob/geoplanetary-dev/LICENSE" :target "_blank"} [:img {:alt "license: GNU AGPL-3.0" :src "https://img.shields.io/github/license/zawa-ch/geoplanetary"}]] [:a {:style "margin-right:0.4em" :href "https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md" :target "_blank"} [:img {:alt "CHANGELOG" :src "https://img.shields.io/badge/CHANGELOG-white"}]]]
 - [:div {:style "height: 8rem;"}]
 - ## Misskey について
-	- 作者: [syuilo](https://misskey.io/@syuilo)
-	- リポジトリ: https://github.com/misskey-dev/misskey
-	- 公式HP: https://misskey-hub.net/
+	- 作者: [:a {:href "https://misskey.io/@syuilo" :target "_blank"} [:img {:alt "しゅいろ" :src "https://img.shields.io/badge/syuilo@misskey.io-しゅいろ-A1CA03?logo=misskey&logoColor=fff"}]]
+	- リポジトリ: [:a {:style "margin-right:0.4em" :href "https://github.com/misskey-dev/misskey" :target "_blank"} [:img {:alt "repository" :src "https://img.shields.io/badge/github-misskey--dev%2Fmisskey-white?logo=github&logoColor=fff&labelColor=181717"}]]
+	- 公式HP: [:a {:href "https://misskey-hub.net/" :target "_blank"} [:img {:alt "https://misskey-hub.net/" :src "https://img.shields.io/badge/misskey--hub.net-A1CA03"}]]
 - [:div {:style "height: 8rem;"}]
 - ## アップストリームとの主な変更点
   (すべての変更はリポジトリの[変更履歴](https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md)をご確認ください)
