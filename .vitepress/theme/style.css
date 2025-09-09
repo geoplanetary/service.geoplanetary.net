@@ -1,5 +1,96 @@
+:root {
+	color-scheme: light dark;
 
-html {
-  font-family: Arial, Helvetica;
+	--color--theme: #003f8e;
+	--color--key-fg: var(--color--theme);
+	--color--key-bg: light-dark(hsl(from var(--color--key-fg) h calc(s - 66) l), hsl(from var(--color--key-fg) h calc(s - 80) l));
+	--color--bg: light-dark(hsl(from var(--color--key-bg) h s calc(l + 70)), hsl(from var(--color--key-bg) h s calc(l - 8)));
+	--color--fg: light-dark(#696969, #dadada);
+	--color--link: hsl(from var(--color--key-fg) h s calc(l + 44));
+	--color--accent: hsl(from var(--color--key-fg) h calc(s - 30) calc(l + 30));
+
+	--font-family--default: 'Roboto', 'BIZ UDPGothic', sans-serif;
+	--font-family--monospace: 'Inconsolata Nerd Font', 'Inconsolata', monospace;
+
+	background: var(--color--bg);
+	color: var(--color--fg);
+
+	font-family: var(--font-family--default);
 }
 
+body {
+	display: block;
+	margin: 0;
+}
+
+:any-link {
+	color: var(--color--link);
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+}
+
+pre,
+code {
+	font-family: var(--font-family--monospace);
+}
+
+div[class*='language-'] {
+	border-radius: 16px;
+	/* 子要素の absolute 配置の基準とするため、 position: relative とする */
+	position: relative;
+	overflow: hidden;
+}
+
+div[class*='language-']>button.copy {
+	height: 16px;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 16px;
+	background: none;
+	color: var(--color--fg);
+	cursor: pointer;
+}
+
+div[class*='language-']>button.copy::after {
+	content: 'Copy code';
+}
+
+div[class*='language-']>span.lang {
+	position: absolute;
+	top: 0;
+	left: 16px;
+	font: 600 12px/1.2 var(--font-family--default);
+}
+
+
+div[class*='language-']>span.lang::before {
+	content: '» ';
+}
+
+pre.shiki {
+	margin: 0;
+	padding-block-start: 24px;
+	padding-block-end: 16px;
+	background: light-dark(var(--shiki-light-bg), var(--shiki-dark-bg));
+	color: light-dark(var(--shiki-light), var(--shiki-dark));
+}
+
+pre.shiki>code>.line {
+	display: inline-block;
+	width: 100%;
+	padding-inline: 16px;
+}
+
+pre.shiki>code>.line.highlighted {
+	background: hsl(from var(--color--fg) h s l / 10%);
+}
+
+pre.shiki>code>.line span {
+	color: light-dark(var(--shiki-light), var(--shiki-dark));
+}

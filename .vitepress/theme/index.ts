@@ -4,9 +4,9 @@ import type { Theme } from 'vitepress'
 import './style.css'
 
 export default {
-  Layout,
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  }
+	Layout,
+	enhanceApp({ app, router, siteData }) {
+		// ...
+	}
 } satisfies Theme
 
