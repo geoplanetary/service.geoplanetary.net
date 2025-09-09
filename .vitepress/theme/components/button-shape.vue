@@ -21,7 +21,7 @@ const props = withDefaults(defineProps<{
 	padding-block: 6px;
 	padding-inline: 8px;
 	overflow: hidden;
-	background: var(--color--key-bg);
+	background: var(--color--button-bg);
 	color: var(--color--fg);
 	font-weight: 600;
 	text-align: center;
@@ -29,5 +29,6 @@ const props = withDefaults(defineProps<{
 
 .button-shape.primary {
 	background: var(--color--accent);
+	color: var(--color--on-accent);
 }
 </style>

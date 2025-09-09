@@ -12,8 +12,11 @@
 				<a href="">
 					<ButtonShape>お知らせ</ButtonShape>
 				</a>
-				<a href="">
+				<a href="/server-rules">
 					<ButtonShape>規約とポリシー</ButtonShape>
+				</a>
+				<a href="">
+					<ButtonShape>カスタム絵文字</ButtonShape>
 				</a>
 				<a href="">
 					<ButtonShape>ソフトウェア情報</ButtonShape>

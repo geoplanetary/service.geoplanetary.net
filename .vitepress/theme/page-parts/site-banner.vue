@@ -2,10 +2,12 @@
 	<header v-if="props.layout === 'home'" class="home-banner">
 		<h1 class="site-title">{{ site.title }}</h1>
 		<p class="site-description">{{ site.description }}</p>
-		<ul>
-			<li><a href="/markdown-examples.html">Markdown Examples</a></li>
-			<li><a href="/api-examples.html">API Examples</a></li>
-		</ul>
+		<MisskeyStatus />
+		<p>
+			<a href="https://geoplanetary.net/">
+				<ButtonShape :primary="true">サービスにもどる</ButtonShape>
+			</a>
+		</p>
 	</header>
 	<header v-else class="page-banner">
 		<div :class="['nav-spacer', props.navHidden ? 'nav-hidden' : undefined]"></div>
@@ -17,6 +19,8 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
 import { defineProps, withDefaults } from 'vue';
+import ButtonShape from '../components/button-shape.vue';
+import MisskeyStatus from './misskey-status.vue';
 
 export type SiteBannerLayouts = 'home' | any;
 

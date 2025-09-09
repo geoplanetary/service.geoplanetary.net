@@ -1,8 +1,16 @@
 <template>
 	<SiteNavigationView v-model:nav-hidden="navHidden">
 		<SiteBanner :layout="frontmatter.layout" :nav-hidden="navHidden" />
-		<main :class="['main-content', frontmatter.layout === 'home' ? 'home' : undefined]">
-			<Content />
+		<main v-if="frontmatter.layout === 'home'" class="main-content home">
+				<Content />
+		</main>
+		<main v-else class="main-content">
+			<article>
+				<header>
+					<h1>{{ frontmatter.title }}</h1>
+				</header>
+				<Content />
+			</article>
 		</main>
 	</SiteNavigationView>
 </template>

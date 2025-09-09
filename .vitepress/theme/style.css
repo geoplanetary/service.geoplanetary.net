@@ -8,6 +8,16 @@
 	--color--fg: light-dark(#696969, #dadada);
 	--color--link: hsl(from var(--color--key-fg) h s calc(l + 44));
 	--color--accent: hsl(from var(--color--key-fg) h calc(s - 30) calc(l + 30));
+	--color--on-accent: rgb(255, 255, 255);
+	--color--button-bg: light-dark(hsl(from var(--color--bg) h s calc(l - 8)), hsl(from var(--color--bg) h s calc(l + 8)));
+	--color--badge-fg: rgb(49, 177, 206);
+	--color--badge-bg: light-dark(hsl(from var(--color--badge-fg) h 76 90), hsl(from var(--color--badge-fg) h 16 33));
+	--color--success-fg: rgb(134, 179, 0);
+	--color--success-bg: light-dark(hsl(from var(--color--success-fg) h 76 90), hsl(from var(--color--success-fg) h 16 33));
+	--color--warn-fg: rgb(236, 182, 55);
+	--color--warn-bg: light-dark(hsl(from var(--color--warn-fg) h 76 90), hsl(from var(--color--warn-fg) h 16 33));
+	--color--error-fg: rgb(236, 65, 55);
+	--color--error-bg: light-dark(hsl(from var(--color--error-fg) h 76 90), hsl(from var(--color--error-fg) h 16 33));
 
 	--font-family--default: 'Roboto', 'BIZ UDPGothic', sans-serif;
 	--font-family--monospace: 'Inconsolata Nerd Font', 'Inconsolata', monospace;
@@ -16,6 +26,7 @@
 	color: var(--color--fg);
 
 	font-family: var(--font-family--default);
+	line-height: 1.5;
 }
 
 body {
@@ -93,4 +104,30 @@ pre.shiki>code>.line.highlighted {
 
 pre.shiki>code>.line span {
 	color: light-dark(var(--shiki-light), var(--shiki-dark));
+}
+
+.custom-block {
+	display: block;
+	margin-block: 1rem;
+	border-radius: 8px;
+	padding: 8px;
+	background: light-dark(hsl(from var(--color--bg) h s calc(l - 4)), hsl(from var(--color--bg) h s calc(l + 4)));
+}
+
+.custom-block.tip {
+	background: var(--color--badge-bg);
+}
+
+.custom-block.warning {
+	background: var(--color--warn-bg);
+}
+
+.custom-block.danger {
+	background: var(--color--error-bg);
+}
+
+.custom-block>.custom-block-title,
+.custom-block>summary {
+	margin: 0;
+	font-weight: 600;
 }
