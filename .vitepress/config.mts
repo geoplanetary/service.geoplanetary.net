@@ -5,5 +5,5 @@ export default defineConfig({
 	srcDir: "docs",
 	lang: 'ja-JP',
 	title: "service.geoplanetary.net",
-	description: "Misskey サーバー「じおぷらねたりー」サービス情報"
+	description: "Misskey サーバー「じおぷらねたりー」サービス情報",
 })

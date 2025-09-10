@@ -11,13 +11,13 @@
 	--color--on-accent: rgb(255, 255, 255);
 	--color--button-bg: light-dark(hsl(from var(--color--bg) h s calc(l - 8)), hsl(from var(--color--bg) h s calc(l + 8)));
 	--color--badge-fg: rgb(49, 177, 206);
-	--color--badge-bg: light-dark(hsl(from var(--color--badge-fg) h 76 90), hsl(from var(--color--badge-fg) h 16 33));
+	--color--badge-bg: light-dark(hsl(from var(--color--badge-fg) h 76 90), hsl(from var(--color--badge-fg) h 24 24));
 	--color--success-fg: rgb(134, 179, 0);
-	--color--success-bg: light-dark(hsl(from var(--color--success-fg) h 76 90), hsl(from var(--color--success-fg) h 16 33));
+	--color--success-bg: light-dark(hsl(from var(--color--success-fg) h 76 90), hsl(from var(--color--success-fg) h 24 24));
 	--color--warn-fg: rgb(236, 182, 55);
-	--color--warn-bg: light-dark(hsl(from var(--color--warn-fg) h 76 90), hsl(from var(--color--warn-fg) h 16 33));
+	--color--warn-bg: light-dark(hsl(from var(--color--warn-fg) h 76 90), hsl(from var(--color--warn-fg) h 24 24));
 	--color--error-fg: rgb(236, 65, 55);
-	--color--error-bg: light-dark(hsl(from var(--color--error-fg) h 76 90), hsl(from var(--color--error-fg) h 16 33));
+	--color--error-bg: light-dark(hsl(from var(--color--error-fg) h 76 90), hsl(from var(--color--error-fg) h 24 24));
 
 	--font-family--default: 'Roboto', 'BIZ UDPGothic', sans-serif;
 	--font-family--monospace: 'Inconsolata Nerd Font', 'Inconsolata', monospace;
@@ -25,13 +25,16 @@
 	background: var(--color--bg);
 	color: var(--color--fg);
 
-	font-family: var(--font-family--default);
-	line-height: 1.5;
+	font: 16px/1.5 var(--font-family--default);
 }
 
 body {
 	display: block;
 	margin: 0;
+}
+
+p {
+	line-height: 1.75;
 }
 
 :any-link {

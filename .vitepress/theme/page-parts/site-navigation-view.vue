@@ -9,19 +9,19 @@
 				<a href="/">
 					<ButtonShape>ホーム</ButtonShape>
 				</a>
-				<a href="">
+				<a href="/announcement">
 					<ButtonShape>お知らせ</ButtonShape>
 				</a>
 				<a href="/server-rules">
 					<ButtonShape>規約とポリシー</ButtonShape>
 				</a>
-				<a href="">
+				<a href="/emoji">
 					<ButtonShape>カスタム絵文字</ButtonShape>
 				</a>
-				<a href="">
+				<a href="/software">
 					<ButtonShape>ソフトウェア情報</ButtonShape>
 				</a>
-				<a href="">
+				<a href="/restricted-servers">
 					<ButtonShape>制限済みサーバー</ButtonShape>
 				</a>
 			</nav>

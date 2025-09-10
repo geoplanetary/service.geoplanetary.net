@@ -127,12 +127,11 @@ onUnmounted(() => {
 .v-enter-active,
 .v-leave-active {
 	position: relative;
-	transition: all 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: all 800ms cubic-bezier(0.215, 0.610, 0.355, 1)
 }
 
 .v-enter-from,
 .v-leave-to {
-	transform: translateX(-64px);
 	opacity: 0;
 }
 </style>

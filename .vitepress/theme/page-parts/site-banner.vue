@@ -1,18 +1,22 @@
 <template>
 	<header v-if="props.layout === 'home'" class="home-banner">
-		<h1 class="site-title">{{ site.title }}</h1>
-		<p class="site-description">{{ site.description }}</p>
-		<MisskeyStatus />
-		<p>
-			<a href="https://geoplanetary.net/">
-				<ButtonShape :primary="true">サービスにもどる</ButtonShape>
-			</a>
-		</p>
+		<div class="layout">
+			<h1 class="site-title">{{ site.title }}</h1>
+			<p class="site-description">{{ site.description }}</p>
+			<MisskeyStatus />
+			<p>
+				<a href="https://geoplanetary.net/">
+					<ButtonShape :primary="true">サービスにもどる</ButtonShape>
+				</a>
+			</p>
+		</div>
 	</header>
 	<header v-else class="page-banner">
-		<div :class="['nav-spacer', props.navHidden ? 'nav-hidden' : undefined]"></div>
-		<a class="site-title">{{ site.title }}</a>
-		<div class="sp"></div>
+		<div class="layout">
+			<div :class="['nav-spacer', props.navHidden ? 'nav-hidden' : undefined]"></div>
+			<a class="site-title">{{ site.title }}</a>
+			<div class="sp"></div>
+		</div>
 	</header>
 </template>
 
@@ -38,8 +42,12 @@ const { site } = useData()
 <style lang="css" scoped>
 .home-banner {
 	display: block;
+	padding-block-start: 64px;
+}
+
+.home-banner .layout {
+	display: block;
 	width: min(1200px, 95%);
-	margin-block-start: 64px;
 	margin-inline: auto;
 	padding-block: 96px;
 }
@@ -58,12 +66,17 @@ const { site } = useData()
 }
 
 .page-banner {
+	display: block;
+}
+
+.page-banner .layout {
 	display: flex;
 	width: auto;
 	height: 64px;
 	margin-inline: 24px;
 	flex-flow: row;
 	align-items: center;
+	gap: 16px;
 }
 
 .page-banner .site-title {
