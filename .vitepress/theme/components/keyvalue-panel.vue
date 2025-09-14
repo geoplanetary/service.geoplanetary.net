@@ -3,9 +3,7 @@
 		<div class="key">
 			{{ props.title }}
 		</div>
-		<div class="value">
-			<slot></slot>
-		</div>
+		<slot></slot>
 	</div>
 </template>
 
@@ -22,10 +20,5 @@ const props = withDefaults(defineProps<{
 .keyvalue-panel {
 	display: flex;
 	flex-flow: column;
-}
-
-.keyvalue-panel>.value {
-	display: block;
-	margin-top: auto;
 }
 </style>

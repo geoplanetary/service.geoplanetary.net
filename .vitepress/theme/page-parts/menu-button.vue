@@ -1,7 +1,7 @@
 <template>
 	<ButtonBase class="menu-button" @activate="onActivate" tabindex="0">
 		<svg width="48" height="48">
-			<path d="M8,12h32v4h-32zM8,22h32v4h-32zM8,32h32v4h-32z" fill="var(--color--fg)" />
+			<path d="M10,14h28M10,24h28M10,34h28" stroke="var(--color--fg)" stroke-width="4" stroke-linecap="round" />
 		</svg>
 	</ButtonBase>
 </template>

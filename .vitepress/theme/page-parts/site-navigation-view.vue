@@ -3,39 +3,83 @@
 	<transition>
 		<div v-if="!navHidden" class="site-navigation">
 			<nav class="nav-root">
-				<a style="display:flex;" target="_blank" href="https://geoplanetary.net/">
-					<div style="margin:auto;"><img src="../../../icons/svg/geoplanetary-icon.svg" height="48"></img></div>
-				</a>
-				<a href="/">
-					<ButtonShape>ホーム</ButtonShape>
-				</a>
-				<a href="/announcement">
-					<ButtonShape>お知らせ</ButtonShape>
-				</a>
-				<a href="/server-rules">
-					<ButtonShape>規約とポリシー</ButtonShape>
-				</a>
-				<a href="/emoji">
-					<ButtonShape>カスタム絵文字</ButtonShape>
-				</a>
-				<a href="/software">
-					<ButtonShape>ソフトウェア情報</ButtonShape>
-				</a>
-				<a href="/restricted-servers">
-					<ButtonShape>制限済みサーバー</ButtonShape>
-				</a>
+				<NavigationButton href="/">
+					<template v-slot:icon>
+						<svg width="48" height="48" fill="none" stroke="var(--color--fg)" stroke-width="2px" stroke-linecap="round"
+							stroke-linejoin="round">
+							<path d="M24,8 l16,12 h-4 v16 h-24 v-16 h-4 z M24,24 a4,4 90 0 1 4,4 v8 h-8 v-8 a4,4 90 0 1 4,-4" />
+						</svg>
+					</template>
+					ホーム
+				</NavigationButton>
+				<NavigationButton href="/announcement/">
+					<template v-slot:icon>
+						<svg width="48" height="48" fill="none" stroke="var(--color--fg)" stroke-width="2px" stroke-linecap="round"
+							stroke-linejoin="round">
+							<path d="M24,8 a16,16 180 1 1 0,32 16,16 180 1 1 0,-32 z M22,20 h2 v12 m-4,0 h8" />
+							<path d="M24,15 a1,1 180 1 1 0,2 1,1 180 1 1 0,-2" fill="var(--color--fg)" stroke="none" />
+						</svg>
+					</template>
+					お知らせ
+				</NavigationButton>
+				<NavigationButton href="/server-rules/">
+					<template v-slot:icon>
+						<svg width="48" height="48" viewBox="-24,-24 48,48" fill="none" stroke="var(--color--fg)" stroke-width="2px"
+							stroke-linecap="round" stroke-linejoin="round">
+							<path
+								d="M10,-16 a4,4 90 0 1 4,4 v24 a4,4 90 0 1 -4,4 h-20 a4,4 90 0 1 -4,-4 v-24 a4,4 90 0 1 4,-4 z M-8,-10 h16 m-16,4 h16 m-16,4 h16 m-16,4 h16 m-16,4 h16 m-16,4 h8" />
+						</svg>
+					</template>
+					規約とポリシー
+				</NavigationButton>
+				<NavigationButton href="/emoji/">
+					<template v-slot:icon>
+						<svg width="48" height="48" viewBox="-24,-24 48,48" fill="none" stroke="var(--color--fg)" stroke-width="2px"
+							stroke-linecap="round" stroke-linejoin="round">
+							<path
+								d="M-10,-16 a6,6 180 0 1 0,12 6,6 180 0 1 0,-12 M4,-16 l12,12 m-12,0 l12,-12 M-16,4 h12 v12 h-12 z M10,4 l6,6 -6,6 -6,-6 6,-6" />
+						</svg>
+					</template>
+					カスタム絵文字
+				</NavigationButton>
+				<NavigationButton href="/software/">
+					<template v-slot:icon>
+						<svg width="48" height="48" viewBox="-24,-24 48,48" fill="none" stroke="var(--color--fg)" stroke-width="2px"
+							stroke-linecap="round" stroke-linejoin="round">
+							<path
+								d="M12,-16 a4,4 90 0 1 4,4 v6 a4,4 90 0 1 -4,4 h-24 a4,4 90 0 1 -4,-4 v-6 a4,4 90 0 1 4,-4 z M-10,-12 h2 m4,0 h6 m-12,4 h2 M12,0 a4,4 90 0 1 4,4 v6 a4,4 90 0 1 -4,4 h-24 a4,4 90 0 1 -4,-4 v-6 a4,4 90 0 1 4,-4 z M0,6 h12 m-12,4 h12" />
+						</svg>
+					</template>
+					ソフトウェア情報
+				</NavigationButton>
+				<NavigationButton href="/restricted-servers/">
+					<template v-slot:icon>
+						<svg width="48" height="48" fill="none" stroke="var(--color--fg)" stroke-width="2px" stroke-linecap="round"
+							stroke-linejoin="round">
+							<path d="M24,8 a16,16 180 1 1 0,32 16,16 180 1 1 0,-32 z M24,16 v10" />
+							<path d="M24,31 a1,1 180 1 1 0,2 1,1 180 1 1 0,-2" fill="var(--color--fg)" stroke="none" />
+						</svg>
+					</template>
+					制限済みサーバー
+				</NavigationButton>
+				<NavigationButton href="https://geoplanetary.net/">
+					<template v-slot:icon><img src="../../../icons/svg/geoplanetary-icon.svg" height="48"></template>
+					サービスにもどる
+				</NavigationButton>
 			</nav>
 		</div>
 	</transition>
-	<div :class="['content-pain', !navHidden ? 'nav-shown' : undefined]">
+	<div :class="['content-pain', 'main', !navHidden ? 'nav-shown' : undefined]">
 		<slot></slot>
 	</div>
+	<SiteFooter :class="['content-pain', !navHidden ? 'nav-shown' : undefined]" />
 </template>
 
 <script setup lang="ts">
-import ButtonShape from '../components/button-shape.vue';
 import MenuButton from './menu-button.vue';
 import { defineModel } from 'vue';
+import NavigationButton from './navigation-button.vue';
+import SiteFooter from './site-footer.vue';
 
 const navHidden = defineModel<boolean>('navHidden');
 function toggleNavHidden() {
@@ -81,6 +125,10 @@ function toggleNavHidden() {
 
 .content-pain {
 	transition: margin 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.content-pain.main {
+	min-height: 100vh;
 }
 
 @media screen and (min-width: 800px) {

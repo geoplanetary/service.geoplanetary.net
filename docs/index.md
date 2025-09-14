@@ -1,6 +1,9 @@
 ---
 layout: home
 ---
+<script setup>
+import MiSWMeta from '../.vitepress/theme/page-parts/misskey-swmeta.vue'
+</script>
 ## 運営者情報{#impressum}
 
 - zawa-ch. ([@stellar_ch@geoplanetary.net](https://geoplanetary.net/@stellar_ch))  
@@ -26,6 +29,18 @@ layout: home
 - [制限済みサーバー](/restricted-servers/) ..
 	<small>なんらかの理由によりこのサービスとのやり取りを制限しているサーバー</small>
 
-## じおぷらねたりーについて{#about}
+## じおぷらねたりーについて{#about-service}
 
+<MiSWMeta />
 
+Fediverse を揺蕩うちいさな人工惑星。  
+zawa-ch.の運用する個人 Misskey サーバーです。
+
+特定の話題や趣味に限定しない、汎用サーバーと呼ばれるものに属します。  
+また、もとの Misskey を改変して運用しています(詳細は[ソフトウェア情報](/software/)を参照してください)。  
+
+## このサイトについて{#about-site}
+
+このサイトは、じおぷらねたりーのサービスに関する情報を掲示しているサイトです。
+
+このサイト自体は Vue + VitePress を用いて構築されています。
