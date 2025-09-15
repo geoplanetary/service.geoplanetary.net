@@ -2,7 +2,7 @@
 title: ソフトウェア情報
 ---
 <script setup>
-import MiSWMeta from '../../.vitepress/theme/page-parts/misskey-swmeta.vue'
+import MiSWMeta from '../.vitepress/theme/page-parts/misskey-swmeta.vue'
 </script>
 <MiSWMeta />
 

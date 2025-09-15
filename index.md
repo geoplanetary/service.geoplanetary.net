@@ -2,7 +2,7 @@
 layout: home
 ---
 <script setup>
-import MiSWMeta from '../.vitepress/theme/page-parts/misskey-swmeta.vue'
+import MiSWMeta from './.vitepress/theme/page-parts/misskey-swmeta.vue'
 </script>
 ## 運営者情報{#impressum}
 

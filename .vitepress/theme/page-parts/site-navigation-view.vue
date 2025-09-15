@@ -63,7 +63,7 @@
 					制限済みサーバー
 				</NavigationButton>
 				<NavigationButton href="https://geoplanetary.net/">
-					<template v-slot:icon><img src="../../../docs/public/assets/logo/geoplanetary.svg" height="48"></template>
+					<template v-slot:icon><img src="../../../public/assets/logo/geoplanetary.svg" height="48"></template>
 					サービスにもどる
 				</NavigationButton>
 			</nav>
