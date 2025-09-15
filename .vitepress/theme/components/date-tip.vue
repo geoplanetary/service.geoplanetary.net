@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, defineProps, onUnmounted, ref, watch, withDefaults } from 'vue';
+import { computed, defineProps, onMounted, onUnmounted, ref, watch, withDefaults } from 'vue';
 
 export type Fuzzyness = 'full' | 'second' | 'minute' | 'five-min' | 'half-hour' | 'hour' | 'quater-day' | 'half-day' | 'day' | 'month' | 'year';
 
@@ -15,7 +15,7 @@ const props = withDefaults(defineProps<{
 	fuzzyness?: Fuzzyness;
 }>(), {
 	fuzzyness: 'full'
-})
+});
 
 const fuzzynessFactor = computed(() => getFuzzynessFactor(props.fuzzyness))
 function getFuzzynessFactor(fuzzyness: Fuzzyness): number {
@@ -35,8 +35,8 @@ function getFuzzynessFactor(fuzzyness: Fuzzyness): number {
 	}
 }
 
-const accuracyDateValue = computed(() => typeof props.date == 'string' ? Date.parse(props.date) : props.date ?? NaN)
-const dateValue = ref<Date>(new Date())
+const accuracyDateValue = computed(() => typeof props.date == 'string' ? Date.parse(props.date) : props.date ?? NaN);
+const dateValue = ref<Date>(new Date());
 
 const dateString = computed(() => {
 	if (Number.isNaN(dateValue.value.valueOf())) {
@@ -56,7 +56,7 @@ const dateString = computed(() => {
 		case 'year': return `${dateValue.value.getFullYear()}年`
 		default: return 'invalid date'
 	}
-})
+});
 
 const isoDateString = computed(() => {
 	try {
@@ -64,10 +64,10 @@ const isoDateString = computed(() => {
 	} catch {
 		return undefined
 	}
-})
+});
 
-const relativeString = ref(buildRelative(dateValue.value, new Date(Date.now()), props.fuzzyness))
-const relativeStringUpdater = setInterval(() => { relativeString.value = buildRelative(dateValue.value, new Date(Date.now()), props.fuzzyness) }, 15000)
+const relativeString = ref(buildRelative(dateValue.value, new Date(Date.now()), props.fuzzyness));
+const relativeStringUpdater = ref<number | undefined>(undefined);
 function buildRelative(value: Date, anchor: Date, fuzzyness: Fuzzyness): string {
 	if (Number.isNaN(dateValue.value.valueOf())) {
 		return ''
@@ -165,12 +165,15 @@ function buildRelative(value: Date, anchor: Date, fuzzyness: Fuzzyness): string 
 }
 
 watch(() => { return { date: props.date, fuzzyness: props.fuzzyness } }, () => {
-	dateValue.value = new Date(accuracyDateValue.value - (accuracyDateValue.value % fuzzynessFactor.value))
-	relativeString.value = buildRelative(dateValue.value, new Date(Date.now()), props.fuzzyness)
+	dateValue.value = new Date(accuracyDateValue.value - (accuracyDateValue.value % fuzzynessFactor.value));
+	relativeString.value = buildRelative(dateValue.value, new Date(Date.now()), props.fuzzyness);
 }, { immediate: true })
 
+onMounted(() => {
+	relativeStringUpdater.value = setInterval(() => { relativeString.value = buildRelative(dateValue.value, new Date(Date.now()), props.fuzzyness) }, 15000);
+})
 onUnmounted(() => {
-	clearInterval(relativeStringUpdater)
+	clearInterval(relativeStringUpdater.value);
 })
 </script>
 
