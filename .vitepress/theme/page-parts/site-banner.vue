@@ -2,7 +2,7 @@
 	<header class="page-banner">
 		<div class="layout">
 			<div :class="['nav-spacer', props.navHidden ? 'nav-hidden' : undefined]"></div>
-			<a class="site-title">{{ site.title }}</a>
+			<a class="site-title" href="/">{{ site.title }}</a>
 			<div class="sp"></div>
 		</div>
 	</header>
