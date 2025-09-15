@@ -33,6 +33,11 @@ title: 規約とポリシー
 	<div style="font-size:0.8rem;">このサービスにおけるメディアの公開、共有に関するガイドライン</div>
 </card>
 
+<card href="/policy/branding/">
+	<div style="font-size:1.2rem;font-weight:600;">ブランディングポリシー</div>
+	<div style="font-size:0.8rem;">このサービスで提供されるブランドアセットの使用に関するルール</div>
+</card>
+
 <card href="/policy/machine-learning/">
 	<div style="font-size:1.2rem;font-weight:600;">機械学習ポリシー</div>
 	<div style="font-size:0.8rem;">このサービスにおける機械学習の使用と、そのためのデータ収集に関するガイドライン</div>
