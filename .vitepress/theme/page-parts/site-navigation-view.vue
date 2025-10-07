@@ -32,6 +32,16 @@
 					</template>
 					規約とポリシー
 				</NavigationButton>
+				<NavigationButton href="/help/">
+					<template v-slot:icon>
+						<svg width="48" height="48" fill="none" stroke="var(--color--fg)" stroke-width="2px" stroke-linecap="round"
+							stroke-linejoin="round">
+							<path d="M24,8 a16,16 180 1 1 0,32 16,16 180 1 1 0,-32 z M20,20 a4,4 270 1 1 4,4 v2" />
+							<path d="M24,31 a1,1 180 1 1 0,2 1,1 180 1 1 0,-2" fill="var(--color--fg)" stroke="none" />
+						</svg>
+					</template>
+					ヘルプとヒント
+				</NavigationButton>
 				<NavigationButton href="/emoji/">
 					<template v-slot:icon>
 						<svg width="48" height="48" viewBox="-24,-24 48,48" fill="none" stroke="var(--color--fg)" stroke-width="2px"
