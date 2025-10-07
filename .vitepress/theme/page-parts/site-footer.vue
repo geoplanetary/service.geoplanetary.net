@@ -11,7 +11,7 @@
 					<b>このサイトのソース</b>
 				</p>
 				<p>
-					このサイトのソースコードは、<a>Github</a>で確認できます。
+					このサイトのソースコードは、<a href="https://github.com/geoplanetary/service.geoplanetary.net" target="_blank">Github</a>で確認できます。
 				</p>
 				<p>
 					<b>オープンソースライセンス</b>
