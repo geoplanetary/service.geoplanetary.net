@@ -22,3 +22,8 @@ description: じおぷらねたりー居住にあたってのヘルプ
 	<div style="font-size:1.2rem;font-weight:600;">各種制限</div>
 	<div style="font-size:0.8rem;">じおぷらねたりーにおける各種機能の上限</div>
 </card>
+
+<card href="./proxy-account">
+	<div style="font-size:1.2rem;font-weight:600;">プロキシアカウント</div>
+	<div style="font-size:0.8rem;">分散型SNSにおけるプロキシアカウントの説明</div>
+</card>
