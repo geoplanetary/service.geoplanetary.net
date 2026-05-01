@@ -69,6 +69,9 @@ description: じおぷらねたりーで使用されているロールについ�
 - ![](/assets/role-icons/block-three.svg) 三年生  
 	開設3年目のアカウントです。Newbie ロールが付与されていなければ自動的に付与されます。
 
+- ![](/assets/role-icons/block-four.svg) 四年生  
+	開設4年目のアカウントです。Newbie ロールが付与されていなければ自動的に付与されます。
+
 - Resident  
 	じおぷらねたりーに住所を持つ住人を表します。  
 	詳細は、[居住区のヒント](./residencial-area)を確認してください。
