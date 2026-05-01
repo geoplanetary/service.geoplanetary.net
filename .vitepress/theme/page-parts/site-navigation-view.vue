@@ -76,6 +76,12 @@
 					<template v-slot:icon><img src="/assets/logo/geoplanetary.svg" height="48"></template>
 					サービスにもどる
 				</NavigationButton>
+				<div v-if="related.entries.value.length">
+					<div style="font-weight: 600;">関連項目</div>
+					<ul>
+						<li v-for="entry in related.entries.value"><a :href="entry.href">{{ entry.title }}</a></li>
+					</ul>
+				</div>
 			</nav>
 		</div>
 	</transition>
@@ -86,10 +92,12 @@
 </template>
 
 <script setup lang="ts">
+import { useRelativePages } from '../composable/relative-pages';
 import MenuButton from './menu-button.vue';
-import { defineModel } from 'vue';
 import NavigationButton from './navigation-button.vue';
 import SiteFooter from './site-footer.vue';
+
+const related = useRelativePages();
 
 const navHidden = defineModel<boolean>('navHidden');
 function toggleNavHidden() {
