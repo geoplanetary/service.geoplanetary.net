@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { ThemeConfig } from './theme/config'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default defineConfig<ThemeConfig>({
 	srcExclude: [
 		'**/README.md',
 		'templates/*.md',
@@ -12,4 +13,14 @@ export default defineConfig({
 	head: [
 		['meta', { name: 'theme-color', content: 'rgb(40, 49, 61)' }]
 	],
+	themeConfig: {
+		copyright: 'Copyright 2025 zawa-ch.',
+		footer: {
+			message: undefined,
+			navigation: [
+				{ name: 'このサイトについて', href: '/about/' },
+				{ name: 'このサイトのソース', href: 'https://github.com/geoplanetary/service.geoplanetary.net' },
+			]
+		},
+	},
 })

@@ -3,40 +3,25 @@
 		<div>
 			<div class="spacer"></div>
 			<div>{{ site.title }}</div>
-			<details>
-				<summary>
-					Copyright 2025 zawa-ch.
-				</summary>
-				<p>
-					<b>このサイトのソース</b>
-				</p>
-				<p>
-					このサイトのソースコードは、<a href="https://github.com/geoplanetary/service.geoplanetary.net" target="_blank">Github</a>で確認できます。
-				</p>
-				<p>
-					<b>オープンソースライセンス</b>
-				</p>
-				<p>
-					このサイトは、次に示すオープンソースライブラリを使用して開発されています。
-				</p>
+			<div v-if="site.themeConfig.copyright">{{ site.themeConfig.copyright }}</div>
+			<nav v-if="site.themeConfig.footer?.navigation" class="footer-nav">
 				<ul>
-					<li><a href="https://www.npmjs.com/package/mfm-js" target="_blank">mfm-js</a> (<a
-							href="https://opensource.org/license/mit" target="_blank">MIT License</a>)</li>
-					<li><a href="https://www.npmjs.com/package/vitepress" target="_blank">vitepress</a> (<a
-							href="https://opensource.org/license/mit" target="_blank">MIT License</a>)</li>
-					<li><a href="https://www.npmjs.com/package/vue" target="_blank">vue</a> (<a
-							href="https://opensource.org/license/mit" target="_blank">MIT License</a>)</li>
+					<li v-for="i in site.themeConfig.footer.navigation">
+						<a :href="i.href" :target="location.isLocal(i.href) ? undefined : '_blank'">{{ i.name }}</a>
+					</li>
 				</ul>
-			</details>
+			</nav>
 		</div>
 	</footer>
 </template>
 
 <script setup lang="ts">
 import { useData } from 'vitepress';
+import { ThemeConfig } from '../config';
+import { useLocation } from '../composable/location';
 
-
-const { site } = useData();
+const location = useLocation();
+const { site } = useData<ThemeConfig>();
 </script>
 
 <style lang="css" scoped>
@@ -53,5 +38,17 @@ footer>div {
 
 .spacer {
 	flex: 1;
+}
+
+footer nav.footer-nav {
+	font-size: 90%;
+}
+
+footer nav.footer-nav>ul {
+	padding: 0;
+}
+
+footer nav.footer-nav>ul>li {
+	list-style-type: none;
 }
 </style>
