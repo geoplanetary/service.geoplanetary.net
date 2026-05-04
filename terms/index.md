@@ -6,5 +6,6 @@ historyPath: './history'
 related:
   - {title: 'プライバシーポリシー', href: '/policy/privacy/'}
   - {title: 'コミュニティポリシー', href: '/policy/community/'}
+  - {title: 'ブランディングポリシー', href: '/policy/branding/'}
 ---
 <!-- @include: ./1759244400.md -->
