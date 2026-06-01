@@ -6,6 +6,7 @@ export default defineConfig<ThemeConfig>({
 	srcExclude: [
 		'**/README.md',
 		'templates/*.md',
+		'robots.txt',
 	],
 	lang: 'ja-JP',
 	title: "service.geoplanetary.net",
