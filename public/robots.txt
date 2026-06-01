@@ -1,0 +1,7 @@
+User-agent: Applebot
+User-agent: Perplexity-User
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: *
+Disallow: /files
