@@ -15,7 +15,7 @@ export default defineConfig<ThemeConfig>({
 		['meta', { name: 'theme-color', content: 'rgb(40, 49, 61)' }]
 	],
 	themeConfig: {
-		copyright: 'Copyright 2025 zawa-ch.',
+		copyright: 'Copyright 2025-2026 zawa-ch.',
 		footer: {
 			message: undefined,
 			navigation: [
