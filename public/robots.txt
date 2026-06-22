@@ -5,3 +5,4 @@ Disallow: /
 
 User-agent: *
 Disallow: /files
+Disallow: /proxy
