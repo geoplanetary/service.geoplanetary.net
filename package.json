@@ -2,7 +2,7 @@
   "devDependencies": {
     "mfm-js": "^0.25.0",
     "vitepress": "2.0.0-alpha.12",
-    "vue": "^3.5.35"
+    "vue": "^3.5.43"
   },
   "scripts": {
     "dev": "vitepress dev",
