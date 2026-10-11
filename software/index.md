@@ -19,6 +19,8 @@ import MiSWMeta from '../.vitepress/theme/page-parts/misskey-swmeta.vue'
 
 すべての変更はリポジトリの[変更履歴](https://github.com/zawa-ch/geoplanetary/blob/release/CHANGELOG.md)をご確認ください
 
+<card><div>ノートフラグ機能。</div><small>since 2026.9.0-geoplanetary.12</small></card>
+<card><div>LCF(Lightweight Context Filter)式によるノートのフィルタ。</div><small>since 2026.9.0-geoplanetary.12</small></card>
 <card><div>ユーザーハンドルとメールアドレスに対するモデレーション機能の強化。</div><small>since 2024.10.1-geoplantery.10</small></card>
 <card><div>投稿禁止ノートパターン機能。</div><small>since 2024.2.0-geoplantery.5</small></card>
 <card><div>投稿可能なノートの最大文字数は65,536文字(ロールによって制御可能)です。</div><small>since 2023.11.1-geoplanetary.2</small></card>
