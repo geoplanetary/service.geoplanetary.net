@@ -5,6 +5,7 @@ applicableDate: 1777906800000
 historyPath: './history'
 related:
   - {title: 'コミュニティポリシー', href: '/policy/community/'}
+  - {title: '自動化ポリシー', href: '/policy/automation/'}
   - {title: 'メディアポリシー', href: '/policy/media/'}
 ---
 <!-- @include: ./1777906800.md -->
