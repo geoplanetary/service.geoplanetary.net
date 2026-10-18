@@ -1,7 +1,7 @@
 ---
 title: じおぷらねたりー 機械学習ポリシー
 description: 機械学習と関連技術の使用に関するルール
-applicableDate: 1777906800000
+applicableDate: 1792353600000
 historyPath: './history'
 related:
   - {title: 'コミュニティポリシー', href: '/policy/community/'}

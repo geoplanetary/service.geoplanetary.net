@@ -14,7 +14,7 @@
 		この文書が規約の場合は「この規約」、ポリシーに含まれる場合は「このポリシー」が用いられます
 	</dd>
 	<dt>このサービス</dt>
-	<dd><a href="https://geoplanetary.net" targer="_blank">geoplanetary.net</a>で運用されているMisskeyサーバー「じおぷらねたりー」を指します</dd>
+	<dd><a href="https://geoplanetary.net" target="_blank">geoplanetary.net</a>で運用されているMisskeyサーバー「じおぷらねたりー」を指します</dd>
 	<dt>運営者</dt>
 	<dd>Misskeyサーバー「じおぷらねたりー」を提供する人、ここではzawa-ch.のことです</dd>
 	<dt>利用者</dt>
