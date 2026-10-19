@@ -1,7 +1,8 @@
 User-agent: Amazonbot
 User-agent: Applebot
-User-agent: Baiduspider
 User-agent: BaiduImagespider
+User-agent: BaiduMobaider
+User-agent: Baiduspider
 User-agent: meta-externalagent
 User-agent: meta-externalfetcher
 User-agent: facebookexternalua
