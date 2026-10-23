@@ -27,3 +27,8 @@ description: じおぷらねたりー居住にあたってのヘルプ
 	<div style="font-size:1.2rem;font-weight:600;">プロキシアカウント</div>
 	<div style="font-size:0.8rem;">分散型SNSにおけるプロキシアカウントの説明</div>
 </card>
+
+<card href="./prevent-ai-learning">
+	<div style="font-size:1.2rem;font-weight:600;">AI学習の抑止対策</div>
+	<div style="font-size:0.8rem;">じおぷらねたりーにおけるAI学習防止について</div>
+</card>
